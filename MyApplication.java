@@ -11,10 +11,10 @@ public class MyApplication {
 
         ArrayList<Person> persons = new ArrayList<>();
 
-        persons.add(new Student("Akerke", "Tastemir", 3));
-        persons.add(new Student("Nargiza", "Familiya", 2));
+        persons.add(new Student("Dana", "Shokobalinova", 3));
+        persons.add(new Student("Ramazan", "Kusainov", 2));
 
-        persons.add(new Employee("Rauan", "Kuntuganov", "Starosta", 10));
+        persons.add(new Employee("Yerasyl", "Unerbek", "Starosta", 10));
 
         Collections.sort(persons);
 
